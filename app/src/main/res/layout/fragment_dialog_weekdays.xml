@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/sunday"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:text="Sunday" />
+
+        <ImageView
+            android:id="@+id/sunday_checked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:src="@drawable/add"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <include layout="@layout/line" />
+
+    <FrameLayout
+        android:id="@+id/monday"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:text="Monday" />
+
+        <ImageView
+            android:id="@+id/monday_checked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:src="@drawable/add"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <include layout="@layout/line" />
+
+    <FrameLayout
+        android:id="@+id/tuesday"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:text="Tuesday" />
+
+        <ImageView
+            android:id="@+id/tuesday_checked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:src="@drawable/add"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <include layout="@layout/line" />
+
+    <FrameLayout
+        android:id="@+id/wednesday"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:text="Wednesday" />
+
+        <ImageView
+            android:id="@+id/wednesday_checked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:src="@drawable/add"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <include layout="@layout/line" />
+
+    <FrameLayout
+        android:id="@+id/thursday"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:text="Thursday" />
+
+        <ImageView
+            android:id="@+id/thursday_checked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:src="@drawable/add"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <include layout="@layout/line" />
+
+    <FrameLayout
+        android:id="@+id/friday"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:text="Friday" />
+
+        <ImageView
+            android:id="@+id/friday_checked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:src="@drawable/add"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <include layout="@layout/line" />
+
+    <FrameLayout
+        android:id="@+id/saturday"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:text="Saturday" />
+
+        <ImageView
+            android:id="@+id/saturday_checked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:src="@drawable/add"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <include layout="@layout/line" />
+
+    <Button
+        android:id="@+id/btn_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="完成" />
+
+
+</LinearLayout>
